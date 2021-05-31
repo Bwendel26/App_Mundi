@@ -1,0 +1,5 @@
+package br.com.brunofernandes.mvc.mundi.controller;
+
+public class HelloController {
+
+}
