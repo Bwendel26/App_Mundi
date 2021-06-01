@@ -1,0 +1,7 @@
+package br.com.brunofernandes.mvc.mundi.model;
+
+public class Pedido {
+	private String nomeProduto;
+	private BigDecimal valorNegociado;
+	private LocalDate dataDaEntrega;
+}

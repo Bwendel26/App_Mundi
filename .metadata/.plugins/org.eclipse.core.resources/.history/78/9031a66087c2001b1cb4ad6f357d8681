@@ -1,0 +1,20 @@
+package br.com.brunofernandes.mvc.mundi.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import br.com.brunofernandes.mvc.mundi.model.Pedido;
+
+@Controller
+public class HomeController {
+	
+	@GetMapping("/home")
+	public String home() {
+		Pedido pedido = new Pedido();
+		pedido.setNomeProduto("Apple iPhone 12 (128 GB)");
+		pedido.setValorNegociado("");
+		pedido.setDataDaEntrega("");
+		
+		return "home";
+	}
+}

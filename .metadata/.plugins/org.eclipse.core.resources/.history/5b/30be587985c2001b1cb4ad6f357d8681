@@ -1,0 +1,6 @@
+package br.com.brunofernandes.mvc.mundi.controller;
+
+@Controller
+public class HomeController {
+
+}
